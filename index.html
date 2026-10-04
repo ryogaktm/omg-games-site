@@ -377,7 +377,7 @@ footer{padding:72px 0 48px; color:var(--muted); font-size:13px}
 <script>
 // ▼ 連絡先: Xのユーザー名かメールを入れると、ページ下部の「ご依頼」に連絡ボタンが出ます（両方でもOK）
 const CONTACT = {
-  xHandle: "",   // 例: "omg_games"（@は付けない）
+  xHandle: "omg_games7u",   // @は付けない
   email: ""      // 例: "name@example.com"
 };
 
@@ -469,7 +469,7 @@ document.querySelector('[data-art="ic-pad"]').innerHTML    = px(icPad,    { m: "
   if (!handle && !mail) {
     const p = document.createElement("p");
     p.className = "contact-pending";
-    p.textContent = "omg_games7u";
+    p.textContent = "ここに連絡先ボタンが出ます（このファイルの CONTACT にXのユーザー名かメールを入れてください）";
     box.appendChild(p);
   }
 })();
